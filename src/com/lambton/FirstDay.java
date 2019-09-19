@@ -21,5 +21,23 @@ public class FirstDay
         Student s1 = new Student();
         s1.setvalues();
         s1.display();
+
+        Student s2 = new Student();
+        s2.studentID =2;
+        s2.studentName="name 2";
+        s2.display();
+
+        Student s3 = new Student();
+        s3.studentID=3;
+        s3.studentName = "name 3";
+        s3.display();
+
+        for(int i=0; i<10; i++)
+        {
+            System.out.println("Komal");
+        }
+
+
+
     }
 }
